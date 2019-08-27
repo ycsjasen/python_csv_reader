@@ -1,6 +1,6 @@
 #initiate csv
 from csv import reader
-opened_file = open('googleplaystore.csv')
+opened_file = open('googleplaystore.csv', encoding ="utf-8")
 read_file = reader(opened_file)
 app_data = list(read_file)
 
